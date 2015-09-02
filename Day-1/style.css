@@ -8,6 +8,7 @@ body {
 header {
     background-color: #000;
     color: white;
+    text-align: center;
 }
 .entry {
     padding: 10px 0 20px 0;
@@ -18,8 +19,10 @@ header {
 .category {
     padding: 10px 20px;
     background-color: #fff;
-    margin: 20px 40px;
+    margin: 20px auto;
     border-radius: 3px;
+    max-width: 700px;
+
 }
 ul {
     list-style-type: none;
