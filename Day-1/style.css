@@ -1,0 +1,53 @@
+body {
+    font-family: sans-serif;
+    background: #333;
+}
+
+.job {
+    padding: 10px 0 20px 0;
+    background-color: #fff;
+    border-bottom: 1px solid #000;
+    margin-bottom: 20px;
+}
+.category {
+    padding: 10px 20px;
+    background-color: #fff;
+    border-bottom: 1px solid #000;
+    margin: 40px;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+    line-height: 1.25em;
+}
+a {
+    text-decoration: none;
+}
+h1 {
+    padding: 20px 50px 0 50px;
+    color: white;
+    font-weight: lighter;
+}
+h2{
+    padding: 0;
+    margin:
+}
+h3 {
+    margin: 0px 0 3px 0;
+}
+p {
+    margin: 0;
+    line-height: 1.25em;
+}
+.profile {
+    width: 150px;
+    height: 150px;
+}
+.description {
+    margin-top: 10px;
+}
+
+
+
+
+
