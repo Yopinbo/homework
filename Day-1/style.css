@@ -1,19 +1,25 @@
 body {
     font-family: sans-serif;
-    background: #333;
+    color: #000;
+    background: #ededed;
+    margin: 0;
 }
 
-.job {
+header {
+    background-color: #000;
+    color: white;
+}
+.entry {
     padding: 10px 0 20px 0;
     background-color: #fff;
-    border-bottom: 1px solid #000;
+    border-bottom: 1px solid #ededed;
     margin-bottom: 20px;
 }
 .category {
     padding: 10px 20px;
     background-color: #fff;
-    border-bottom: 1px solid #000;
-    margin: 40px;
+    margin: 20px 40px;
+    border-radius: 3px;
 }
 ul {
     list-style-type: none;
@@ -24,20 +30,24 @@ a {
     text-decoration: none;
 }
 h1 {
-    padding: 20px 50px 0 50px;
+    font-size: 28px;
+    margin: 0;
+    padding: 15px 50px;
     color: white;
     font-weight: lighter;
 }
 h2{
+    font-weight: lighter;
     padding: 0;
-    margin:
+    margin: 15px 0;
 }
 h3 {
     margin: 0px 0 3px 0;
 }
 p {
+    font-size: 14px;
     margin: 0;
-    line-height: 1.25em;
+    line-height: 1.5em;
 }
 .profile {
     width: 150px;
