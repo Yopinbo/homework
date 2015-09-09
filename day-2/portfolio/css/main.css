@@ -1,6 +1,7 @@
 body {
     font-family: sans-serif;
     font-size: 18px;
+    font-style: normal;
     border-bottom: 5px solid #222;
     border-top: 5px solid #222;
     margin: 30px;
@@ -20,7 +21,7 @@ h3{
     font-size: 18px;
 }
 p {
-    letter-spacing: .03em;
+    letter-spacing: .02em;
     line-height: 1.5em;
     font-family: serif;
     margin-bottom: 30px;
@@ -41,6 +42,7 @@ a {
     color: black;
     font-weight: bold;
 }
+
 main {
     display: inline-block;
 }
@@ -52,4 +54,22 @@ footer {
     margin-top: 20px;
     width: 66%;
     float: left;
+}
+.experience {
+    margin-top: 20px;
+    width: 100%;
+    float: left;
+}
+
+.li-img {
+    margin-left: 20px;
+    float: left;
+    width: 85%;
+}
+.role {
+    font-weight: bold;
+    font-style: italic;
+}
+.duration {
+    font-size: 15px;
 }
