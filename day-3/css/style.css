@@ -1,0 +1,128 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,600,800);
+
+body {
+    color: #033048;
+    font-size: 13px;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0 auto;
+    max-width: 600px;
+    font-weight: normal;
+    -moz-osx-font-smoothing: antialiased;
+    -webkit-font-smoothing: antialiased;
+}
+
+h1 {
+    font-weight: 800;
+    font-size: 24px;
+    margin: 0;
+    padding: 12px 59px;
+    color: white;
+}
+
+h2 {
+    font-weight: 600;
+    font-size: 24px;
+    text-align: center;
+    color: white;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+h3 {
+    margin: 0;
+    font-weight: 600;
+    font-size: 20px;
+}
+p{
+    font-weight: 300;
+
+}
+
+header {
+    background: url("../images/header_bg.jpg") no-repeat 100%;
+    height: 350px;
+}
+
+.benefits {
+    padding: 50px 240px 20px 60px;
+}
+
+ul li:nth-child(even) {
+    font-weight: 800;
+}
+.quote {
+    width: 100%;
+     background: url("../images/testimonial_bg.jpg") no-repeat 100%;
+}
+blockquote {
+    font-size: 18px;
+    font-weight: 300;
+    font-style: italic;
+    color: white;
+    text-align: center;
+    padding: 40px 150px;
+    margin: 0;
+}
+
+.button {
+    font-size: 14px;
+    font-weight: 800;
+    -webkit-border-radius:5px;
+    -ms-border-radius:5px;
+    -moz-border-radius:5px;
+    -o-border-radius:5px;
+    border-radius: 5px;
+    text-align: center;
+    width: 122px;
+    padding: 6px 5px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.top {
+    background: #f9e42e;
+    color: #033048;
+    -webkit-box-shadow: 0px 3px 0px rgba(0, 0, 0, 0.32);
+    -ms-box-shadow: 0px 3px 0px rgba(0, 0, 0, 0.32);
+    -moz-box-shadow: 0px 3px 0px rgba(0, 0, 0, 0.32);
+    -o-box-shadow: 0px 3px 0px rgba(0, 0, 0, 0.32);
+    box-shadow: 0px 3px 0px rgba(0, 0, 0, 0.32);
+}
+
+.cta {
+    margin: 0;
+    background-color:  #f9e42e;
+    height: 45px;
+    padding-top: 15px;
+}
+
+.bottom {
+    font-size: 12px;
+    background: #033048;
+    color: white;
+
+}
+
+footer {
+    background-color: #121212;
+    height: 400px;
+    text-align: center;
+}
+footer h1 {
+    color: #f9e42e;
+}
+nav img {
+    height: 17px;
+    margin: 10px;
+}
+footer p{
+    font-size: 9px;
+    font-weight: 600;
+    color: white;
+}
+blockquote p {
+    font-size: 18px;
+    font-style: normal;
+    margin: 0;
+
+}
+
