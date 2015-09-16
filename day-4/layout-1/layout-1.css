@@ -1,3 +1,4 @@
+/* general */
 
 body {
     margin: 50px auto;
@@ -21,6 +22,8 @@ div {
     height: 350px;
     float: left;
 }
+
+/* grid */
 
 .two-third {
     width: 65%;

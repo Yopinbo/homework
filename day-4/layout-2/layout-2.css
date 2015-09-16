@@ -1,3 +1,4 @@
+/* general */
 
 body {
     margin: 50px auto;
@@ -22,6 +23,8 @@ div {
     float: left;
 }
 
+/* grid */
+
 .three-fifth {
     width: 56%;
 }
@@ -29,6 +32,8 @@ div {
 .one-fifth {
     width: 20%;
 }
+
+/* margin */
 
 .left {
     margin-right: 1%;

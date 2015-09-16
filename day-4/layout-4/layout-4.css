@@ -1,3 +1,4 @@
+/* general */
 
 body {
     margin: 50px auto;
@@ -21,16 +22,29 @@ div {
     height: 350px;
     float: left;
 }
+
+/* header */
+
+.nav {
+    height: 46px;
+    margin-bottom: 35px;
+}
+ul {
+    float: right;
+    list-style: none;
+}
+
+li {
+    margin-left: 2%;
+    float: right;
+    height: 50px;
+    width: 22%;
+}
+
+/* grid */
+
 .full {
     width: 100%;
-}
-
-.three-fifth {
-    width: 56%;
-}
-
-.one-fifth {
-    width: 20%;
 }
 
 .one-third {
@@ -46,6 +60,8 @@ div {
 .one-half{
     width: 49%;
 }
+
+/* margin */
 
 .left {
     margin-right: 1%;
@@ -63,18 +79,4 @@ div {
     width: 200px;
 }
 
-.nav {
-    height: 46px;
-    margin-bottom: 35px;
-}
-ul {
-    float: right;
-    list-style: none;
-}
 
-li {
-    margin-left: 2%;
-    float: right;
-    height: 50px;
-    width: 22%;
-}
