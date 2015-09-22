@@ -83,22 +83,6 @@ footer {
     background-color: #121212;
     text-align: center;
 }
-footer h1 {
-        padding: 72px 0 40px 0;
-}
-/******************************************
-/* ADDITIONAL STYLES
-/*******************************************/
-
-/* main elements */
-
-main {
-    float: left;
-    width: 75%;
-    padding: 87px 10px 40px 0px;
-
-
-}
 
 aside {
     float: right;
@@ -111,7 +95,19 @@ article {
     border-bottom: 1px solid black;
     margin-bottom: 50px;
 }
-article img{
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+
+/* main elements */
+
+main {
+    float: left;
+    width: 75%;
+    padding: 87px 10px 40px 0px;
+}
+
+article img {
     width: 100%;
     margin-bottom: 20px;
 }
@@ -135,13 +131,15 @@ h2 {
     margin-bottom: 20px;
     line-height: 1.2em;
 }
+
 h3 {
     margin: 0 0 20px 0;
     font-weight: 700;
     font-size: 32px;
     color: #2A4053;
 }
-p{
+
+p {
     font-weight: 300;
     font-size: 24px;
     line-height: 1.4em;
@@ -217,9 +215,10 @@ article p:first-letter {
 
 footer h1 {
     color: #f9e42e;
+    padding: 72px 0 40px 0;
 }
 
-
+}
 footer p{
     font-size: 18px;
     font-weight: 600;
@@ -229,7 +228,6 @@ nav img {
     height: 34px;
     margin: 20px;
 }
-
 
 .cta {
     margin: 0;
@@ -248,7 +246,8 @@ nav img {
         color: #2A4053;
         text-decoration: none;
     }
-        .read-more a:hover {
+
+    .read-more a:hover {
         color: #2C89DA;
     }
 
@@ -263,10 +262,10 @@ nav img {
     .learn-more a{
         color: #2A4053;
         text-decoration: none;
-}
-    .learn-more a:hover{
+    }
+    .learn-more a:hover {
         color: #2C89DA;
-}
+    }
 
 
 .button {
