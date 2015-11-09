@@ -1,0 +1,120 @@
+/*
+|-------------------------------------------------------------------------------------------------------
+| Arbitrary / optional styles (provided just to make the demo more clear)
+|-------------------------------------------------------------------------------------------------------
+*/
+
+p {
+  margin-bottom: 1em;
+  line-height: 1.4;
+}
+
+.modal,
+.modal__content {
+/*  margin: 2em auto 4em;*/
+}
+
+.modal__content {
+  padding: 4em;
+}
+/*
+|-------------------------------------------------------------------------------------------------------
+| Fullscreen modal component styles
+|-------------------------------------------------------------------------------------------------------
+*/
+
+.modal,
+.modal__content {
+ /* width: 70%;*/
+  /* Arbitrary width chosen */
+}
+
+.modal__action {
+  position: relative;
+}
+
+.modal__bg {
+  z-index: 1;
+  visibility: hidden;
+  opacity: 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: #222;
+  width: 100%;
+  height: 100%;
+  transition: opacity 0.4s 0.4s, visibility 0.4s 0.4s;
+}
+
+.modal__bg--is-visible {
+  visibility: visible;
+  opacity: 1;
+}
+
+.modal__popup {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  visibility: hidden;
+  opacity: 0;
+}
+
+.modal__content {
+  overflow: auto;
+  -webkit-overflow-scrolling: touch;
+  background: #fff;
+  height: 100%;
+  transition: opacity 0.8s 0.8s, visibility 0.8s 0.8s;
+}
+
+.modal__popup--is-visible {
+  z-index: 1;
+  visibility: visible;
+  opacity: 1;
+}
+/*
+|-------------------------------------------------------------------------------------------------------
+| Styles from a separate, independent component (CSS close button) http://codepen.io/diptajbasu/pen/YyeRdr
+| are mixed into this component
+|-------------------------------------------------------------------------------------------------------
+*/
+
+.close {
+  z-index: 1;
+  position: fixed;
+  top: 8px;
+  right: 8px;
+  width: 30px;
+  height: 30px;
+}
+
+.close::before,
+.close::after {
+  background: #fff;
+  content: '';
+  position: absolute;
+  top: 14px;
+  width: 26px;
+  height: 2px;
+}
+
+.close::before {
+  transform: rotate(45deg);
+  left: 2px;
+}
+
+.close::after {
+  transform: rotate(-45deg);
+  right: 2px;
+}
+/* Make text invisible but allow screen readers to know it exists */
+
+.invisible-text {
+  display: inline-block;
+  overflow: hidden;
+  text-indent: 100%;
+  color: transparent;
+  white-space: nowrap;
+}
