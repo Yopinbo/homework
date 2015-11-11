@@ -1,0 +1,135 @@
+<html>
+<head>
+    <title>Pin-Bo Tsai's Design Portfolio</title>
+
+    <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Crimson+Text:400,400italic,600,600italic' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="css/keyframes.css"/>
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <link rel="stylesheet" type="text/css" href="css/pageTransitions.css"/>
+    <link rel="stylesheet" type="text/css" href="css/modal.css"/>
+
+
+</head>
+<body>
+    <div class="index m-scene" id="main">
+        <header class="header-cont">
+            <div id="header">
+                <div class="logo"><a class="scroll" href="#hero"><img src="assets/panda-logo-small.jpg"></a></div>
+                <nav>
+                    <ul>
+                        <li><a class="scroll" href="#work">Work</a></li>
+                        <li><a class="scroll" href="#contact">Contact</a></li>
+                        <li><a href="">Resume</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <main>
+            <div class="hero scene_element scene_element--fadein" id="hero">
+                <div class="intro">
+                     <h1 class="headline">Telling stories with pixels.</h1>
+                     <p>Illustrator. Art Director. Animator. Experience Designer</p>
+
+                </div>
+            </div>
+            <section class="group scene_element scene_element--fadeinup">
+                <p class="blurb">
+                    I am a multi-disciplinary designer based in Boston, MA currently working and learning at <span><a href="http://evertrue.com" target="_blank">EverTrue</a></span>.  I freelance from time to time helping companies and individuals create delightful experiences with a clean and crisp visual narrative. You can sneak a peak at some of my most recent work at <span><a href="http://dribbble.com/yopinbo" target="_blank">Dribbble</a></span>.
+                </p>
+            </section>
+            <section class="group scene_element scene_element--fadeinup" id="work">
+                <h2 class="section-title">Work</h2>
+                <div class="project modal" id="dog">
+                    <img src="images/dogear_logo@2x.jpg">
+                    <a href="project1.html">
+                        <div class="description modal__trigger">
+                            <h3 class="project-title">Title of project</h3>
+                            <p class-"project-copy">some sub copy to talk about the awesomeness</p>
+                        </div>
+                        <div class="modal__bg"></div>
+                    </a>
+                    <div class="modal__popup">
+                        <div class="modal__content">
+                          <h2>Content for second modal</h2>
+                          <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe inventore quidem quis sequi quam quaerat sapiente nostrum dignissimos eveniet qui, quo assumenda, quae dolorem. Vitae beatae dolorum veniam magnam, error.
+                          </p>
+                          <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore atque, explicabo at odio ea velit veniam deserunt unde, ut maxime blanditiis aliquam omnis similique optio dicta natus officiis assumenda quasi.
+                          </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project" id="dog">
+                    <img src="images/form-submit.jpg">
+                    <a href="project1.html">
+                        <div class="description">
+                            <h3 class="project-title">Title of project</h3>
+                            <p class-"project-copy">some sub copy to talk about the awesomeness</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="project" id="dog">
+                    <img src="images/repair_alt@2x.png">
+                    <a href="project1.html">
+                        <div class="description">
+                            <h3 class="project-title">Title of project</h3>
+                            <p class-"project-copy">some sub copy to talk about the awesomeness</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="project" id="dog">
+                    <img src="images/rocket.png">
+                    <a href="project1.html">
+                        <div class="description">
+                            <h3 class="project-title">Title of project</h3>
+                            <p class-"project-copy">some sub copy to talk about the awesomeness</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="project" id="dog">
+                    <img src="images/tools.jpg">
+                    <a href="project1.html">
+                        <div class="description">
+                            <h3 class="project-title">Title of project</h3>
+                            <p class-"project-copy">some sub copy to talk about the awesomeness</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="project" id="dog">
+                    <img src="images/rocket.png">
+                    <a href="project1.html">
+                        <div class="description">
+                            <h3 class="project-title">Title of project</h3>
+                            <p class-"project-copy">some sub copy to talk about the awesomeness</p>
+                        </div>
+                    </a>
+                </div>
+                <a href="#" class="close modal__close invisible-text">Close</a>
+            </section>
+            <section class="group contact" id="contact">
+                <h2 class="section-title">Contact Form</h2>
+                <div>
+                    <form>
+                        Name:<input type="text" name="firstname">
+                        Email:<input type="email" name="email" required>
+                        Telephone:<input type="tel" name="tel" id="tel" required>
+                        <buttontype="button" onclick="alert('Hello World!')">Submit</button>
+                    </form>
+                </div>
+            </section>
+        </main>
+        <footer>
+        </footer>
+    </div>
+
+    <script src='http://code.jquery.com/jquery-latest.min.js'></script>
+    <script type="text/javascript" src="js/jquery.smoothState.min.js"></script>
+     <script type="text/javascript" src="js/functions.js"></script>
+    <script type="text/javascript" src="js/scroll.js"></script>
+    <script type="text/javascript" src="js/modal.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,286 @@
+body {
+    font-family: 'Crimson Text', serif;
+    margin: 0 auto;
+    width: 100%;
+    -webkit-font-smoothing:antialiased;
+    box-sizing: border-box;
+
+}
+
+/*Scaling Header and Main Navigation*/
+
+.header-cont {
+    margin: 0 auto;
+    width: 100%;
+    overflow: hidden;
+    position: fixed;
+    top: 0px;
+    z-index: 5000;
+
+}
+
+#header{
+    overflow: hidden;
+    width: 100%;
+    background-color: #012120;
+    height: 100px;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+
+}
+
+#header.smaller{
+    height: 60px;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+
+}
+.logo {
+    display: inline-block;
+    height: 60px;
+    width: 60px;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+.logo img{
+    display: inline-block;
+    height: 60px;
+    width: 60px;
+    margin: 20px;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.smaller .logo img{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    margin: 10px;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+nav {
+    display: inline-block;
+    float: right;
+    margin-top: 13px;
+    margin-right: 20px;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.smaller nav {
+    margin-top: -5px;
+    margin-right: 20px;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+nav li {
+    float: left;
+    margin: 10px;
+}
+
+nav a {
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: gray;
+}
+
+main {
+    clear: both;
+    padding-top: 96px;
+}
+
+.headline {
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 150px;
+    margin-bottom: 0;
+    text-align: center;
+    letter-spacing: .008em;
+    font-size: 48px;
+    clear: both;
+    color: #345050;
+}
+
+.intro p {
+    text-align: center;
+    letter-spacing: 0.008em;
+    font-size: 30px;
+    margin-top: 6px;
+    clear: both;
+    color: #345050;
+}
+
+.intro {
+    position:absolute;
+    float:left;
+    left: 9%;
+    width:80%;
+    min-height:370px;
+    text-align: center;
+}
+
+.intro button {
+    text-align: center;
+    clear: both;
+}
+
+
+.hero {
+    position: relative;
+    max-width: 100%;
+    height: 70vh;
+    background: url(../assets/satchel.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+
+.blurb {
+    font-family: 'Crimson Text', serif;
+    font-size: 30px;
+    line-height: 1.4em;
+    padding: 4% 9% 0 9%;
+    text-align: left;
+    letter-spacing: 0.008em;
+
+}
+
+p.blurb::first-letter {
+    float: left;
+    font-size: 3em;
+    color: #2B9EE2;
+    margin: 18px 13px -14px 0px;
+}
+
+.blurb a {
+    text-decoration: none;
+    color: #2B9EE2;
+}
+.blurb a:hover {
+    text-decoration: none;
+    color: #2D84B7;
+
+}
+.group {
+    text-align: center;
+    overflow: hidden;
+    margin-bottom: 60px;
+}
+
+.section-title {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    clear: both;
+}
+
+.project {
+    border: 1px solid rgba(209, 209, 209, 0.35);
+    width: 31%;
+    position: relative;
+    float: left;
+    margin: 1%;
+    box-sizing: border-box;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+
+}
+
+.project:before {
+    content:"";
+    display:block;
+    padding-top:75%;
+}
+div.project img {
+    top: 0;
+    left: 0;
+    position: absolute;
+    max-height: 100%;
+    max-width: 100%;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.description {
+    top: 0;
+    left: 0;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    float: left;
+    background-color: white;
+    opacity: 0;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+
+}
+
+ .description:hover {
+    top: 0;
+    left: 0;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    float: left;
+    background-color: white;
+    opacity: 1;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+}
+
+
+.image {
+    background-color: red;
+    width: 100%;
+    height: 290px;
+}
+
+.quote {
+    clear: both;
+    text-align: center;
+    height: 150px;
+}
+
+.contact {
+    height: 600px;
+}
