@@ -49,6 +49,7 @@ header {
 
 .benefits {
     padding: 50px 240px 20px 60px;
+    background-color: #f0efef;
 }
 
 ul li:nth-child(even) {
